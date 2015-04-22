@@ -244,13 +244,13 @@ begin
 			puts calcCos(b)
 
 		when 'tangent'
-			puts "Enter number to calculate cosine "
+			puts "Enter number to calculate tangent "
 			a = gets.chomp.to_f
 			b = a.to_rad
 			puts "If your input was radians"
-			puts calcCos(a)
+			puts calcTan(a)
 			puts "If your input was degrees"
-			puts calcCos(b)
+			puts calcTan(a)
 
 		when 'law sine'
 			puts calcLawSin
